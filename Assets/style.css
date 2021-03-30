@@ -10,7 +10,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1%;
+    padding: 1rem;
     background-color: #66626e;
     color: #fff;
 }
@@ -57,10 +57,14 @@ ul a {
 }
 
 h2 {
-    color: #fff;
+    color: rgb(0, 183, 255);
 }
 
- header li {
+h3 {
+    color:rgb(180, 216, 230)
+}
+
+header li {
     display: list-item;
     text-align: -webkit-match-parent;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -68,14 +72,10 @@ h2 {
     color: white;
 }
 
- figure {
-     display: block;
- }
-
 p {
-     font-size: 20px;
      color: #fff;
- }
+     font-size: 2rem;
+}
 
 .container {
     width: 100%;
@@ -97,12 +97,13 @@ p {
     cursor:pointer
 }
 
+section {
+    color:#fff
+}
 
-
-#myImg {
-    height: 500px;
-    width: 900px;
-    border-radius: 10rem;
+#myWork {
+    width: 1050px;
+    border-radius: 1rem;
 }
 
 #gitImg {
@@ -121,6 +122,10 @@ p {
     margin: 20px;
 }
 
+#linkedIn :hover {
+    color: cyan;
+}
+
 footer li {
     display: list-item;
     text-align: -webkit-match-parent;
@@ -128,7 +133,7 @@ footer li {
     font-size: 20px;
 }
 
-@media screen and (max-width: 992px) {
+/* @media screen and (max-width: 992px) {
     header nav {
         flex: content;
         justify-content: space-evenly;
@@ -173,4 +178,4 @@ footer li {
         flex: content;
         justify-content: space-evenly;
     }
-  }
+  } */
