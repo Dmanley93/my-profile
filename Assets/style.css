@@ -97,12 +97,11 @@ p {
 .image {
     width: 250px;
     height: 250px;
-    margin: 100px;
-
+    margin: 2rem;
 }
 
 .image:hover {
-    transform: scale(1.5);
+    transform: scale(1.25);
     cursor:pointer
 }
 
@@ -142,6 +141,15 @@ section {
     /* flex: 0 0 300px; */
     margin: 20px;
 }
+
+#nodeImg {
+    border-radius: 50%;
+    border-width: 1px;
+    padding: 10px;
+    /* flex: 0 0 300px; */
+    margin: 20px;
+}
+
 
 footer li {
     display: list-item;
